@@ -10,8 +10,6 @@ The tested Unity Editor version that works with this SDK is **2019.4.40**.
 
 To install the VIVE Wave SDK in your Unity project, follow the Unity tutorial on [importing local asset packages][2].
 
-Alternatively clone this repository and add **WaveVR** folder from `src/WaveVR` to **Assets** folder of your project.
-
 ## Usage
 
 After installing the VIVE Wave SDK, you can access its features and functionality within your Unity project.

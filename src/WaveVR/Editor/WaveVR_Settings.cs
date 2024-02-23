@@ -96,7 +96,8 @@ public class WaveVR_Settings : EditorWindow
 	public static string[] GetVirtualRealitySDKs(BuildTargetGroup group)
 	{
 #if UNITY_2017_2_OR_NEWER
-		return PlayerSettings.GetVirtualRealitySDKs(group);
+		// return PlayerSettings.GetVirtualRealitySDKs(group);
+		return UnityEngine.XR.XRSettings.supportedDevices;
 #else
 		return UnityEditorInternal.VR.VREditor.GetVREnabledDevicesOnTargetGroup(group);
 #endif
@@ -104,11 +105,12 @@ public class WaveVR_Settings : EditorWindow
 
 	public static void SetVirtualRealitySDKs(BuildTargetGroup group, string[] devices)
 	{
-#if UNITY_2017_2_OR_NEWER
-		PlayerSettings.SetVirtualRealitySDKs(group, devices);
-#else
+// #if UNITY_2017_2_OR_NEWER
+// 		PlayerSettings.SetVirtualRealitySDKs(group, devices);
+// #else
+// 		UnityEditorInternal.VR.VREditor.SetVREnabledDevicesOnTargetGroup(group, devices);
+// #endif
 		UnityEditorInternal.VR.VREditor.SetVREnabledDevicesOnTargetGroup(group, devices);
-#endif
 	}
 
 	public static bool GetMobileMTRendering(BuildTargetGroup group)

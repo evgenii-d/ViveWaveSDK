@@ -311,7 +311,8 @@ static class CustomBuildProcessor
 		public static string[] GetVirtualRealitySDKs(BuildTargetGroup group)
 		{
 #if UNITY_2017_2_OR_NEWER
-			return PlayerSettings.GetVirtualRealitySDKs(group);
+			// return PlayerSettings.GetVirtualRealitySDKs(group);
+			return UnityEngine.XR.XRSettings.supportedDevices;
 #else
 			return UnityEditorInternal.VR.VREditor.GetVREnabledDevicesOnTargetGroup(group);
 #endif

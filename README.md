@@ -4,7 +4,7 @@ This repository contains the unpacked **Wave SDK 3.2.0** from the official [`.un
 
 Compatibility issues with **Unity 2021** have been fixed.
 
-This SDK can be used with Unity 2021 for **HTC Vive Focus Plus**.
+This SDK can be used with Unity 2021 for **HTC Vive Focus Plus** VR Headset.
 
 Fixed `.unitypackage` can be downloaded from the **Releases** section.
 

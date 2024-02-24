@@ -1,10 +1,10 @@
 # VIVE Wave SDK
 
-This repository contains the unpacked **Wave SDK 3.2.0** from the `.unitypackage`.
+This repository contains the unpacked **Wave SDK 3.2.0** from the official [`.unitypackage`][1].
 
-The original `.unitypackage` can be downloaded from the [official site][1] or the **Releases** section.
+Original `.unitypackage` can also be downloaded from the **Releases** section.
 
-The tested Unity Editor version that works with this SDK is **2019.4.40**.
+Tested with Unity **2019.4.40**.
 
 ## Installation
 

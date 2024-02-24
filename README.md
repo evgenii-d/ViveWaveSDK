@@ -1,21 +1,24 @@
 # VIVE Wave SDK
 
-This repository contains the unpacked **Wave SDK 3.2.0** from the `.unitypackage`.
+This repository contains the unpacked **Wave SDK 3.2.0**.
 
-The original `.unitypackage` can be downloaded from the [official site][1] or the **Releases** section.
+Compatibility issues with **Unity 2021** have been fixed.
 
-The tested Unity Editor version that works with this SDK is **2019.4.40**.
+This SDK can be used with Unity 2021 for **HTC Vive Focus Plus**.
+
+Fixed `.unitypackage` can be downloaded from the **Releases** section.
+
+Tested with the Unity Editor **2021.3.35f1**.
 
 ## Installation
 
-To install the VIVE Wave SDK in your Unity project, follow the Unity tutorial on [importing local asset packages][2].
+To install the VIVE Wave SDK in your Unity project, follow the Unity tutorial on [importing local asset packages][1].
 
 ## Usage
 
 After installing the VIVE Wave SDK, you can access its features and functionality within your Unity project.
 
-For more detailed information, refer to the [VIVE Wave SDK Developer Guide][3].
+For more detailed information, refer to the [VIVE Wave SDK Developer Guide][2].
 
-[1]: https://developer.vive.com/resources/vive-wave/download/archive/320
-[2]: https://docs.unity3d.com/Manual/AssetPackagesImport.html
-[3]: https://hub.vive.com/storage/docs/en-us/UnityXR/UnityXRSdk.html
+[1]: https://docs.unity3d.com/Manual/AssetPackagesImport.html
+[2]: https://hub.vive.com/storage/docs/en-us/UnityXR/UnityXRSdk.html
